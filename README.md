@@ -19,7 +19,7 @@ A scene prompt guide for generators.
 | **Reflection** (duality) | `Close-up of [subject]'s reflection in [reflective surface], 85mm lens, reflection in sharp focus, physical subject soft or in silhouette.` | Shorthand for hidden selves, secrets, or inner conflict by prioritizing the reflection over the physical subject. |
 
 
-##Shot Sizes, Angles & Composition
+## Shot Sizes, Angles & Composition
 
 ### Shot Size
 | Term | Prompt Phrase | Effect |
@@ -51,7 +51,7 @@ A scene prompt guide for generators.
 - **Layered depth**: `distinct foreground, midground, and background layers`
 
 
-##Lens Physics & Camera Keywords
+## Lens Physics & Camera Keywords
 
 ### Reliable Keywords
 | Goal | Phrase |
@@ -75,7 +75,7 @@ Image generators do not simulate real exposure, so treat these as vibe words:
 Rack focus, dolly zoom, and focus pulls need motion. They don't work in still-image prompts.
 
 
-##Lighting & Atmosphere
+## Lighting & Atmosphere
 | Look | Phrase |
 | :-- | :-- |
 | Midday sun | `bright midday sun, hard shadows, high-key lighting` |
@@ -91,7 +91,7 @@ Rack focus, dolly zoom, and focus pulls need motion. They don't work in still-im
 | Practical lights | `lit by visible lamps, [candles, streetlights, screens] in frame` |
 | Rhythmic light | `passing [lights] casting moving bands of light across [subject]` |
 
-##Color Grade & Film Look
+## Color Grade & Film Look
 | Look | Phrase |
 | :-- | :-- |
 | Clean modern digital | `clean neutral color, natural skin tones, crisp detail` |
@@ -104,7 +104,7 @@ Rack focus, dolly zoom, and focus pulls need motion. They don't work in still-im
 | Black and white | `black and white, high contrast, fine film grain` |
 | Pastel | `soft pastel palette, low contrast, airy` |
 
-##Aspect Ratio Cheat Sheet
+## Aspect Ratio Cheat Sheet
 | Ratio | Feel | Midjourney Parameter |
 | :-- | :-- | :-- |
 | 2.39:1 | Anamorphic widescreen | `--ar 12:5` (about 2.4:1) |
@@ -116,7 +116,7 @@ Rack focus, dolly zoom, and focus pulls need motion. They don't work in still-im
 | 9:16 | Vertical phone | `--ar 9:16` |
 
 
-##Camera Movement (Video Generators)
+## Camera Movement (Video Generators)
 These terms belong in video prompts, not still-image prompts.
 
 | Move | Phrase | Effect |
@@ -135,7 +135,7 @@ These terms belong in video prompts, not still-image prompts.
 
 **Template:** `[Subject] [action] in [setting], slow push-in, 35mm lens, shallow depth of field, [light source] lighting, [color grade].`
 
-##Common Failures & Fixes
+## Common Failures & Fixes
 | Problem | Fix |
 | :-- | :-- |
 | Malformed hands | Avoid intricate hand poses, hide hands in pockets or frame edges, or keep gestures simple |
@@ -150,7 +150,7 @@ These terms belong in video prompts, not still-image prompts.
 **Negative prompt starter** (where supported): `blurry, low resolution, extra limbs, deformed hands, watermark, text, oversaturated`
 
 
-##Worked Examples (One Template, Different Scenes)
+## Worked Examples (One Template, Different Scenes)
 **Portrait telephoto template:** `Close-up portrait of [subject] [action], 85mm lens, wide aperture, shallow depth of field, [background] compressed into smooth bokeh, [light], [grade].`
 
 - **Market scene:** `Close-up portrait of a vendor arranging fruit, 85mm lens, wide aperture, shallow depth of field, crowded stalls compressed into smooth bokeh, warm late-afternoon sun, modern 35mm film look.`
@@ -158,7 +158,7 @@ These terms belong in video prompts, not still-image prompts.
 - **Wilderness scene:** `Close-up portrait of a hiker resting on a ridge, 85mm lens, wide aperture, shallow depth of field, distant mountains compressed into smooth bokeh, golden hour backlight, teal and orange grade.`
 
 
-##Prompt-Building Checklist
+## Prompt-Building Checklist
 1. Who or what is the subject, and what are they doing?
 2. Where are they?
 3. How close is the camera (shot size), and from where (angle)?
