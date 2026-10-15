@@ -64,17 +64,6 @@ A scene prompt guide for generators.
 | Frozen action | `frozen mid-motion, crisp suspended droplets or dust` |
 | Light trails | `long exposure, streaking light trails` |
 
-### Style Cues, Not Real Controls
-Image generators do not simulate real exposure, so treat these as vibe words:
-
-- **Shutter speed** (1/1000s, 1/15s): reads as 'frozen' or 'blurry'. Prefer the plain-language phrases above.
-- **Camera bodies** (ARRI Alexa, RED, Sony FX3, Canon C300): nudge toward a general look (clean digital, filmic, crisp). Use at most one, and don't expect sensor-accurate results.
-- **Barrel distortion**: can appear with wide lenses, but models apply it unpredictably.
-
-### Video-Only Techniques
-Rack focus, dolly zoom, and focus pulls need motion. They don't work in still-image prompts.
-
-
 ## Lighting & Atmosphere
 | Look | Phrase |
 | :-- | :-- |
@@ -116,9 +105,7 @@ Rack focus, dolly zoom, and focus pulls need motion. They don't work in still-im
 | 9:16 | Vertical phone | `--ar 9:16` |
 
 
-## Camera Movement (Video Generators)
-These terms belong in video prompts, not still-image prompts.
-
+## Camera Movement (Video Gen)
 | Move | Phrase | Effect |
 | :-- | :-- | :-- |
 | Push-in | `slow push-in toward [subject]` | Builds focus and tension |
@@ -134,6 +121,7 @@ These terms belong in video prompts, not still-image prompts.
 | Locked-off | `static locked-off camera` | Stillness, formality |
 
 **Template:** `[Subject] [action] in [setting], slow push-in, 35mm lens, shallow depth of field, [light source] lighting, [color grade].`
+
 
 ## Common Failures & Fixes
 | Problem | Fix |
