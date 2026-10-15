@@ -165,5 +165,3 @@ These terms belong in video prompts, not still-image prompts.
 4. What lens look do you want (wide, standard, telephoto, macro)?
 5. What is the main light source and mood?
 6. What color grade or film look fits?
-7. Which aspect ratio suits the platform?
-8. Is the prompt under about 60 words with one look?
